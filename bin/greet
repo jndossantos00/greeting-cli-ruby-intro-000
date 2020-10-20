@@ -5,4 +5,4 @@ require_relative "../lib/greeting.rb"
 
 puts "Hi! I'm HAL, what's your name?"
 puts =gets.strip
-def greeting(name)
+def greeting(Don)
