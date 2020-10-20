@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
-gets "$stdin greeting(Don)"# code your CLI here!
+gets "$stdout greeting(Don)"# code your CLI here!
 
 puts "Hi! I'm HAL, what's your name?"
 puts name=gets.strip
